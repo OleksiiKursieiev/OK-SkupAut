@@ -1,0 +1,63 @@
+body {
+    font-family: Roboto, serif;
+}
+
+.banner {
+ background-color: crimson;
+ color: white;
+ text-align: center;
+ letter-spacing: 5px;
+ word-spacing: 30px;
+ padding: 10px;
+}
+
+.block1 {
+    background-color: mistyrose;
+    height: 300px;
+    padding: 10px;
+    margin: 10px 50px;
+    border: 1px solid crimson;   
+    text-align: left;
+}
+
+
+.block1img{
+    float: left;
+    height: 100%;
+}
+
+
+.block2offers{
+display: flex;
+}
+
+.block3offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offer, .offer2{
+    background-color: snow;
+    height: 450px;
+    width: 21%;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid crimson;   
+}
+
+img {
+    max-width: 100%;
+}
+
+h4{
+    font-size: 180%;
+    text-align: center;
+    color: crimson;
+}
+a{
+    color: white;
+}
+.bottom{
+    background-color: crimson;
+    color: white;
+}
